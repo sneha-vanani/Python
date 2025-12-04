@@ -1,55 +1,55 @@
-# """ ****
-#     ****
-#     ****
-#     **** """
-# n = int(input("Enter a number: "))
+""" ****
+    ****
+    ****
+    **** """
+n = int(input("Enter a number: "))
 
-# for i in range(n):
-#     for j in range(n):
-#         print("*",end=" ")
-#     print("")
+for i in range(n):
+    for j in range(n):
+        print("*",end=" ")
+    print("")
 
-# """ 111
-#     222
-#     333 """
-# n = int(input("Enter a number: "))
+""" 111
+    222
+    333 """
+n = int(input("Enter a number: "))
 
-# for i in range(n):
-#     for j in range(n):
-#         print(i+1, end=" ")
-#     print()
+for i in range(n):
+    for j in range(n):
+        print(i+1, end=" ")
+    print()
 
-# """ 1234
-#     1234
-#     1234 """
-# n = int(input("Enter a number: "))
+""" 1234
+    1234
+    1234 """
+n = int(input("Enter a number: "))
 
-# for i in range(n):
-#     for j in range(n):
-#         print(j+1,end=" ")
-#     print()
+for i in range(n):
+    for j in range(n):
+        print(j+1,end=" ")
+    print()
 
-# """123
-#    456
-#    789"""
-# n = int(input("Enter a number: "))
-# k=1
+"""123
+   456
+   789"""
+n = int(input("Enter a number: "))
+k=1
 
-# for i in range(n):
-#     for j in range(n):
-#         print(k,end=" ")
-#         k += 1
-#     print()
+for i in range(n):
+    for j in range(n):
+        print(k,end=" ")
+        k += 1
+    print()
 
-# """321
-#    321
-#    321"""
-# n = int(input("Enter a number: "))
+"""321
+   321
+   321"""
+n = int(input("Enter a number: "))
 
-# for i in range(n):
-#     for j in range(n):
-#         print(n-j,end=" ")
-#     print()
+for i in range(n):
+    for j in range(n):
+        print(n-j,end=" ")
+    print()
 
 """AAA
    BBB
