@@ -1,6 +1,7 @@
 """26. Create a function to rotate a list left by k positions."""
 
 def rotate(lis,k):
+    k = k % len(lis)
     i = 0
     while i < k:
         temp = lis[0]
@@ -20,5 +21,5 @@ def inputLis():
 
 lis = inputLis()
 k = int(input("enter how many times you want to rotate: "))
-print("modulo: ",k % len(lis))
+
 rotate(lis,k)
