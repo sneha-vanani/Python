@@ -51,3 +51,13 @@ match op:
     case 3:
         res = a.difference(b)
         print(res)
+
+#Symmetric difference
+c = a.symmetric_difference(b)
+print('Symmetric difference: ',c)
+
+#Frozen set 
+x = frozenset({'apple', 'banan', 'cherry'})
+print(x)
+print(type(x))
+
