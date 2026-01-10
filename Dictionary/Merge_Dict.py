@@ -1,9 +1,10 @@
-""" Write a python script to merge two dictionaries"""
-a = {1:10, 2:20, 3:30}
-b = {3:35, 4:40, 5:50}
+"""29. Write a function to merge two dictionaries and handle key collisions by summing values."""
+a = {'a':100, 'b':200, 'c':300}
+b = {'c':350, 'd':400, 'e':500}
 
-# a.update(b)
 for i in b:
-    a[i] = b[i]
-
+    if i in a:
+        a[i] += b[i]
+    else:
+        a[i] = b[i]
 print(a)
